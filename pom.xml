@@ -46,7 +46,7 @@
 					<outputDirectory>${project.build.directory}\dist</outputDirectory>
 					<archive>
 						<manifest>
-							<mainClass>cwi.sonar.main.ReportGenerator</mainClass>
+							<mainClass>org.packageinfo.maker.main.Runner</mainClass>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib</classpathPrefix>
 						</manifest>
